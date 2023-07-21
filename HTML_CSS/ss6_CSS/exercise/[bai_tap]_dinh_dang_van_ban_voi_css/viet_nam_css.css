@@ -1,0 +1,19 @@
+#title{
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+#line{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+p.para{
+    text-indent: 50px;
+}
+div.container{
+    width: 630px;
+    text-align: justify;
+    font-family: Tahoma;
+}
+a{
+    text-decoration: none;
+}
