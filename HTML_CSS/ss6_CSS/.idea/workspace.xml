@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af0f33b1-7499-4920-8683-b8dc927e973c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_dinh_dang_van_ban_voi_css/viet_nam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_dinh_dang_van_ban_voi_css/viet_nam_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_nhung_css_vao_html/external_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_nhung_css_vao_html/external_style_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_nhung_css_vao_html/inline_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/[bai_tap]_nhung_css_vao_html/internal_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2SoxATfGfaeur5PAT2twtPKVJbb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af0f33b1-7499-4920-8683-b8dc927e973c" name="Default Changelist" comment="" />
+      <created>1689826591910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689826591910</updated>
+      <workItem from="1689826593322" duration="97000" />
+      <workItem from="1689826694173" duration="4791000" />
+      <workItem from="1689844938980" duration="3473000" />
+      <workItem from="1689856901556" duration="490000" />
+      <workItem from="1689858349108" duration="3665000" />
+      <workItem from="1689911483776" duration="6480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1689826691546">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1689826691546" />
+    <state x="366" y="17" key="SettingsEditor" timestamp="1689863174475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="366" y="17" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1689863174475" />
+  </component>
+</project>
