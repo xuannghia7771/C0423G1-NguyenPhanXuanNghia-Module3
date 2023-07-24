@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{
+            background-color: #575656;
+            color: white;
+            padding: 15px;
+            display: flex;
+        }
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 20px;
+            color: #8b8b8b;
+        }
+        .nav-buttons{
+            font-size: 20px;
+            margin-right: auto;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: #8b8b8b;
+            margin-right: 20px;
+        }
+        .nav-buttons a:hover{
+            background-color: black;
+            color: white;
+        }
+        .login-button {
+            text-decoration: none;
+            color: #8b8b8b;
+        }
+        .nav-link {
+            background-color: #eaeaea;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin: 0;
+            width: 20%;
+        }
+        .nav-link a {
+            text-decoration: none;
+            color: #0c67a0;
+            margin: 0;
+            padding-top: 10px;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 0;
+            width: 60%;
+        }
+        aside {
+            flex: 20%;
+            background-color: #eaeaea;
+            margin: 0;
+            padding: 20px;
+            width: 20%;
+        }
+        .ad-container{
+            border: 1px solid #f3f3f3;
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+            background-color: #c7c7c7;
+        }
+        article {
+            flex: 60%;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 10px;
+        }
+        .container{
+            display: flex;
+        }
+        footer{
+            text-align: center;
+            background-color: grey;
+            margin: 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<header>
+    <div class="logo">Logo</div>
+    <div class="nav-buttons">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Project</a>
+        <a href="#">Contact</a>
+    </div>
+    <a href="#" class="login-button">Login</a>
+</header>
+<div class="container">
+    <nav class="nav-link">
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1 style="font-size: 30px">Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae efficitur lectus, a sagittis justo.
+                Nullam sit amet ex in diam luctus tincidunt ac et velit. Nam tincidunt ante eu lectus pharetra cursus.
+                Quisque rhoncus tortor non ex fermentum, vel consectetur purus aliquam. Sed et vulputate enim. Duis a
+                odio ut velit consectetur pellentesque in id lacus. Proin et malesuada sem, sed ultrices dolor. Mauris
+                cursus sapien vel ligula iaculis, at euismod tortor sagittis. In hac habitasse platea dictumst. Nunc
+                iaculis, enim at iaculis rutrum, enim urna rutrum magna, a venenatis ligula arcu ut turpis. Donec
+                interdum augue vitae tellus congue fermentum. Suspendisse a tellus et odio scelerisque hendrerit non et
+                ante</p>
+            <hr>
+            <h1>Test</h1>
+            <p>Lorem ipsum...</p>
+        </article>
+    </section>
+
+    <aside>
+        <div class="ad-container">
+            <h1>ADS</h1>
+        </div>
+        <div class="ad-container">
+            <h1>ADS</h1>
+        </div>
+    </aside>
+</div>
+<footer>
+    <h2>Footer Text</h2>
+</footer>
+</body>
+</html>
