@@ -6,7 +6,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "DiscountCalculatorServlet", value = "/calculate")
+@WebServlet(name = "DiscountCalculatorServlet", value = "/discount_calculator")
 public class DiscountCalculatorServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -22,13 +22,13 @@ public class DiscountCalculatorServlet extends HttpServlet {
         double discountAmount = listPrice * discountPercent * 0.01;
         double finaPrice = listPrice - discountAmount;
 
-        PrintWriter writer = response.getWriter();
-        writer.println("<html>");
-        writer.println("<b>Description: </b>"+productDescription+"<br/>");
-        writer.println("<b>Listed price of product: </b>"+listPrice+"<br/>");
-        writer.println("<b>Price after calculating with discount percent (Discount Amount): </b>"+discountAmount+"<br/>");
-        writer.println("<b>Final Price: </b>"+finaPrice);
-        writer.println("</html>");
+        request.setAttribute("description",productDescription);
+        request.setAttribute("listed",listPrice);
+        request.setAttribute("discount",discountAmount);
+        request.setAttribute("last",finaPrice);
+
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("discount_calculator.jsp");
+        requestDispatcher.forward(request,response);
 
     }
 }

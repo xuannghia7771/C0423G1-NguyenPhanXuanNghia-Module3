@@ -11,7 +11,7 @@
 
   </style>
 </head>
-<form action="/calculate" method="post">
+<form action="/discount_calculator" method="post">
   <label for="PD">Product Description:</label><br>
   <input type="text" name="product-description" placeholder="Product Description" id="PD">
   <br>
