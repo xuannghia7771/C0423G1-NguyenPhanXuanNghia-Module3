@@ -25,8 +25,16 @@
                 <td>${requestScope["product"].getProductName()}</td>
             </tr>
             <tr>
+                <td>Price: </td>
+                <td>${requestScope["product"].getProductPrice()}</td>
+            </tr>
+            <tr>
                 <td>Description: </td>
                 <td>${requestScope["product"].getProductDescription()}</td>
+            </tr>
+            <tr>
+                <td>Publisher: </td>
+                <td>${requestScope["product"].getProductPublisher()}</td>
             </tr>
             <tr>
                 <td><input type="submit" value="Delete product"></td>

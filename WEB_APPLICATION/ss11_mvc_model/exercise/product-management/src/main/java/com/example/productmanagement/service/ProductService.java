@@ -5,17 +5,17 @@ import com.example.productmanagement.model.Product;
 import java.util.HashMap;
 import java.util.*;
 
-public class ProductService implements IProductService{
+public class ProductService implements IProductService {
     private static Map<Integer, Product> products;
 
     static {
         products = new HashMap<>();
-        products.put(1, new Product(1, "Samsung 1", "Day la sam sung 1"));
-        products.put(2, new Product(2, "Samsung 2", "Day la sam sung 2"));
-        products.put(3, new Product(3, "Samsung 3", "Day la sam sung 3"));
-        products.put(4, new Product(4, "Samsung 4", "Day la sam sung 4"));
-        products.put(5, new Product(5, "Samsung 5", "Day la sam sung 5"));
-        products.put(6, new Product(6, "Samsung 6", "Day la sam sung 6"));
+        products.put(1, new Product(1, "Samsung Galaxy S7 Edge", 3000.5, "Đây là Samsung Galaxy S7 Edge", "Samsung"));
+        products.put(2, new Product(2, "Iphone 14 pro max", 2500, "Đây là Iphone 14 pro max", "Iphone"));
+        products.put(3, new Product(3, "Oppo Reno 9", 1500, "Đây là Oppo Reno 9", "Oppo"));
+        products.put(4, new Product(4, "Xiaomi Redmi Note 11", 2100.4, "Đây là Xiaomi Redmi Note 11", "Xiaomi"));
+        products.put(5, new Product(5, "Huawei P40 Pro Plus", 2700, "Đây là Huawei P40 Pro Plus", "Huawei"));
+        products.put(6, new Product(6, "Nokia Lumina 570", 2100, "Đây là Nokia Lumina 570", "Nokia"));
     }
 
     @Override

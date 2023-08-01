@@ -30,8 +30,16 @@
                 <td><input type="text" name="name" id="name" value="${requestScope["product"].getProductName()}"></td>
             </tr>
             <tr>
+                <td><label for="price">Price: </label></td>
+                <td><input type="text" name="price" id="price" value="${requestScope["product"].getProductPrice()}"></td>
+            </tr>
+            <tr>
                 <td><label for="description">Description: </label></td>
                 <td><input type="text" name="description" id="description" value="${requestScope["product"].getProductDescription()}"></td>
+            </tr>
+            <tr>
+                <td><label for="publisher">Publisher: </label></td>
+                <td><input type="text" name="publisher" id="publisher" value="${requestScope["product"].getProductPublisher()}"></td>
             </tr>
             <tr>
                 <td></td>

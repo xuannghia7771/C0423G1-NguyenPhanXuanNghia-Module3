@@ -30,8 +30,16 @@
                 <td><input type="text" name="name" id="name"></td>
             </tr>
             <tr>
+                <td><label for="price">Price: </label></td>
+                <td><input type="text" name="price" id="price"></td>
+            </tr>
+            <tr>
                 <td><label for="description">Description: </label></td>
                 <td><input type="text" name="description" id="description"></td>
+            </tr>
+            <tr>
+                <td><label for="publisher">Publisher: </label></td>
+                <td><input type="text" name="publisher" id="publisher"></td>
             </tr>
             <tr>
                 <td></td>

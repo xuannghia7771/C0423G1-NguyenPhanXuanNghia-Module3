@@ -19,12 +19,16 @@
 <table border="1">
     <tr>
         <td>Name</td>
+        <td>Price</td>
         <td>Description</td>
+        <td>Publisher</td>
     </tr>
     <c:forEach items='${requestScope["products"]}' var="product">
         <tr>
             <td><a href="/products?action=view&id=${product.getId()}">${product.getProductName()}</a></td>
+            <td>${product.getProductPrice()}</td>
             <td>${product.getProductDescription()}</td>
+            <td>${product.getProductPublisher()}</td>
             <td><a href="/products?action=edit&id=${product.getId()}">edit</a></td>
             <td><a href="/products?action=delete&id=${product.getId()}">delete</a></td>
         </tr>
